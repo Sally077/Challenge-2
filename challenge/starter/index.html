@@ -17,10 +17,10 @@
         <h1>Sally Hedges</h1>
       </div>
       <div class="right">
-        <a href="#">About Me</a>
-        <a href="#">My Work</a>
-        <a href="#">Curriculum Vitae</a>
-        <a href="#">Contact Me</a>
+        <a href="#id_name">About Me</a>
+        <a href="#id_work">My Work</a>
+        <a href="#id_curriculum">Curriculum Vitae</a>
+        <a href="#id_contact">Contact Me</a>
         
       </div>
     </nav>
@@ -44,38 +44,39 @@
     
     <!-- about me -->
     <div class="flexItem">
-      <h2>About Me</h2>
+      <h2><div id="id_name"></div>About Me</h2>
       <p>I am a secondary school teacher. I enjoy coding in python and reading literature. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae excepturi ullam molestias harum consectetur voluptatum aspernatur possimus nam. Reiciendis nisi sapiente iste excepturi vel provident voluptatem fuga, asperiores magnam harum.</p>
     </section>
 
     <!-- portfolio container --> <!-- curriculum Vitae -->
     <section class="justifyContent flexContainer">
       <div class="flexItem">
-      <h2>My Work</h2>
-      <img src=".\images\02-portfolio-2.jpg" style="height: 250px; width:900px;">
+       <h2><div id="id_work"></div>My Work</h2>
+      <img src=".\images\02-portfolio-2.jpg"  class="img" style= "height:200px; width:850px;">
     </div>
-     <sdiv class="flexItem">
-      <h2>Curriculum Vitae</h2>
-      <img src=".\images\02-portfolio-3.jpg"style="height: 250px; width:900px">
+     <div class="flexItem">
+      <h2><div id="id_curriculum"></div>Curriculum Vitae</h2>
+      <img src=".\images\02-portfolio-3.jpg" class="img" style="height: 200px; width:850px">
      </div>
+    </div>
     </section>
+
 
     <!-- contact -->
     <section class="perfectlyCentered flexContainer">
       <div class="flexItem">
-      <h2>Contact Me</h2>
+      <h2><div id="id_contact"></div>Contact Me</h2>
       <p>phone Number: 07757767787</p>
       <p>E-mail: sally@gmail.com</p>
     </section>
   </div>
 
   <!--attempt to get links moving to titles-->
-  <div class="nav">
-    <a href="#" class="right ">About Us</a>
-    <a href="#" class="right ">My Work</a>
-    <a href="#" class="right ">Curriculum Vitae</a>
-    <a href="#" class="right">Contact Us</a>
-  </div>
+
+  <!--Adding Media Query-->
+
+  <meta name="viewport" content="width=device-width, initial-scale">
+
 
 
 </body>
