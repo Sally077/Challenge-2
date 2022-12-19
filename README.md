@@ -26,6 +26,9 @@ I would also take more time to neaten up the HTML code and use more descriptive 
 ![](images/github/portfolio-01.png)
 ![](images/github/portfolio-02.png)
 
+https://github.com/Sally077/Challenge-2/blob/main/images/portfolio-01.png
+
+
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
