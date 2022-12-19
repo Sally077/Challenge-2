@@ -11,10 +11,7 @@
 
 <body>
   <!-- main logo / nav -->
-  <header>
-
-    
-   
+  <header>   
     <nav class ="nav">
       <div class="left">
         <h1>Sally Hedges</h1>
@@ -29,6 +26,8 @@
     </nav>
    
   </header>
+
+
  
     <img src=".\images\avatar.png" class="avatar" alt="profile picture">
   <!-- hero banner -->
@@ -41,29 +40,44 @@
     </div>
   </section>
 
-  <main class="page-wrapper">
+  <section class="alignItems flexContainer">
     
     <!-- about me -->
-    <section class="page-section" id="about">
+    <div class="flexItem">
       <h2>About Me</h2>
       <p>I am a secondary school teacher. I enjoy coding in python and reading literature. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae excepturi ullam molestias harum consectetur voluptatum aspernatur possimus nam. Reiciendis nisi sapiente iste excepturi vel provident voluptatem fuga, asperiores magnam harum.</p>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
+    <!-- portfolio container --> <!-- curriculum Vitae -->
+    <section class="justifyContent flexContainer">
+      <div class="flexItem">
       <h2>My Work</h2>
-    </section>
-
-     <!-- curriculum Vitae -->
-     <section class="page-section curriculum" id="curriculum">
+      <img src=".\images\02-portfolio-2.jpg" style="height: 250px; width:900px;">
+    </div>
+     <sdiv class="flexItem">
       <h2>Curriculum Vitae</h2>
+      <img src=".\images\02-portfolio-3.jpg"style="height: 250px; width:900px">
+     </div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
+    <section class="perfectlyCentered flexContainer">
+      <div class="flexItem">
       <h2>Contact Me</h2>
+      <p>phone Number: 07757767787</p>
+      <p>E-mail: sally@gmail.com</p>
     </section>
-  </main>
+  </div>
+
+  <!--attempt to get links moving to titles-->
+  <div class="nav">
+    <a href="#" class="right ">About Us</a>
+    <a href="#" class="right ">My Work</a>
+    <a href="#" class="right ">Curriculum Vitae</a>
+    <a href="#" class="right">Contact Us</a>
+  </div>
+
+
 </body>
 
 </html>
