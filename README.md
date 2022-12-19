@@ -23,7 +23,8 @@ I learned how to use the flex box model and apply containers, I created a naviga
 
 I would also take more time to neaten up the HTML code and use more descriptive naming conventions and add alt text to the images.
 
-
+![](images/github/portfolio-01.png)
+![](images/github/portfolio-02.png)
 
 ## Table of Contents (Optional)
 
